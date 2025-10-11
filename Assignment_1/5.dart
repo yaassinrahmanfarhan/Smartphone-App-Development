@@ -1,10 +1,8 @@
 import 'dart:io';
 
 void main(){
-  String firstnm, lastnm;
-  print("Enter your first name: ");
-  firstnm = stdin.readLineSync()!;
-  print("Enter your last name: ");
-  lastnm = stdin.readLineSync()!;
-  print("Full name is ${firstnm} ${lastnm}");
+  print("Enter a number: ");
+  int input = int.parse(stdin.readLineSync()!);
+  int result = input * input;
+  print("${input}^2 = ${result}");
 }

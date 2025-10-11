@@ -1,8 +1,8 @@
-import 'dart:io';
-
 void main(){
-  print("Enter a number: ");
-  int input = int.parse(stdin.readLineSync()!);
-  int result = input * input;
-  print("${input}^2 = ${result}");
+  int p,t,r;
+  p = 10;
+  t = 7;
+  r = 5;
+  var Formula= (p * t * r) / 100;
+  print(Formula);
 }
